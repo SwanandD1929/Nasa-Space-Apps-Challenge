@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Smooth scrollbar for mission-control feel */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #06b6d4 #0f172a;
+}
+*::-webkit-scrollbar { width: 6px; }
+*::-webkit-scrollbar-track { background: #0f172a; }
+*::-webkit-scrollbar-thumb { background: #06b6d4; border-radius: 3px; }
