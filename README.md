@@ -1,16 +1,18 @@
-# React + Vite
+# 🌙 LUNA-SAFE — Lunar Landing Intelligence & Site Evaluation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+* **NASA Space Apps Challenge 2026** · Solo Submission  
+* **Developer:** Swanand Dindore  
+* **Live Vercel Deployment:** (https://luna-safe.vercel.app)  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 📝 Project Description
+**LUNA-SAFE** is a high-performance, dark-themed mission control web application engineered to evaluate and score candidate lunar south pole landing sites (such as Shackleton Crater). It addresses the critical challenges of solar power availability (photovoltaic generation) and direct-to-Earth communication line-of-sight during orbital occultation and extreme polar topography shadowing. 
 
-## React Compiler
+By ingesting and processing precise ephemeris observer tables from the **NASA JPL Horizons System** (Target bodies Sun and Earth relative to the lunar south pole) alongside **NASA LRO LOLA** digital elevation models, the platform computes temporal visibility timelines, crater slope profiles, and a weighted multi-factor **Site Suitability Score** to assist mission planners in making informed GO/NO-GO landing decisions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 🏗️ Tech Stack
+* **Frontend:** React, Vite
+* **Styling:** Tailwind CSS (Dark mission-control aesthetic)
+* **Data Visualization:** Recharts
+* **Hosting:** Vercel
